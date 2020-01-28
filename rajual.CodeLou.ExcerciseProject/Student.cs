@@ -1,7 +1,7 @@
 using System;
 namespace rajual.CodeLou.ExcerciseProject{
 
-    class Student 
+    public class Student 
     {
         public int StudentId { get; set; }
         public string FirstName { get; set; }

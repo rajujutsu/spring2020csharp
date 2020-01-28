@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj": {}
+    "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj": {}
   },
   "projects": {
-    "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj": {
+    "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj",
+        "projectUniqueName": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj",
         "projectName": "rajual.CodeLou.ExcerciseProject",
-        "projectPath": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj",
+        "projectPath": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/rajual.CodeLou.ExcerciseProject.csproj",
         "packagesPath": "/Users/rajieraj/.nuget/packages/",
-        "outputPath": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/rajual.CodeLou.ExcerciseProject/obj/",
+        "outputPath": "/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rajieraj/.nuget/NuGet/NuGet.Config"

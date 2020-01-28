@@ -1,0 +1,11 @@
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.deps.json
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.runtimeconfig.json
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.runtimeconfig.dev.json
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.dll
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/bin/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.pdb
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.csprojAssemblyReference.cache
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.AssemblyInfoInputs.cache
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.AssemblyInfo.cs
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.dll
+/Users/rajieraj/Documents/CodeLouisville/projects/2020CSharp/spring2020csharp/rajual.CodeLou.ExcerciseProject/obj/Debug/netcoreapp3.1/rajual.CodeLou.ExcerciseProject.pdb
