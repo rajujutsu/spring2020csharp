@@ -1,5 +1,5 @@
 using System;
-namespace rajual.CodeLou.ExcerciseProject{
+namespace rajual.CodeLou.ExcerciseProject.Classes{
 
     public class Student 
     {
@@ -10,6 +10,11 @@ namespace rajual.CodeLou.ExcerciseProject{
         public DateTimeOffset StartDate { get; set; }
         public string LastClassCompleted { get; set; }
         public DateTimeOffset LastClassCompletedOn { get; set; }
-    }
+
+        public string StudentDisplay => $"({StudentId} | {FirstName} | {LastName} | {ClassName} ) ";
+
+        public string FullName => $"{FirstName} {LastName}"; 
+
+        }
 
 }
