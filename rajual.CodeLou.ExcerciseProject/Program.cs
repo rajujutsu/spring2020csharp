@@ -2,12 +2,28 @@
 using rajual.CodeLou.ExcerciseProject.Classes;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
+using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
+
 
 namespace rajual.CodeLou.ExcerciseProject
 {
     class Program
     {
-        static List<Student> studentsList = new List<Student>();
+        const string _studentRepositoryPath = @"students.json"; 
+        
+        public static async Task Save()  {
+            using (var file = File.CreateText(_studentRepositoryPath))
+        {
+            await file.WriteAsync(JsonSerializer.Serialize(studentsList));
+        }
+        }
+            static List<Student> Load() {
+            return JsonSerializer.Deserialize<List<Student>>(File.ReadAllText(_studentRepositoryPath));
+        }
+        static List<Student> studentsList =  new List<Student>();
         static void Main(string[] args)
         {
             var inputtingStudent = true;
@@ -111,6 +127,7 @@ namespace rajual.CodeLou.ExcerciseProject
                 }
             }
             studentsList.Add(student);
+                    Save();
         }            
     }
 }
