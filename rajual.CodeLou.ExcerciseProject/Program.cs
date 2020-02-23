@@ -6,24 +6,24 @@ using System.Text.Json;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-
-
 namespace rajual.CodeLou.ExcerciseProject
 {
     class Program
     {
-        const string _studentRepositoryPath = @"students.json"; 
-        
+        const string jsonfile = @"students.json"; 
+        static string theDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        static string _studentRepositoryPath = $"{theDirectory}\\jsonfile";
+        static List<Student> studentsList = File.Exists(_studentRepositoryPath) ? Read() : new List<Student>(); 
         public static async Task Save()  {
             using (var file = File.CreateText(_studentRepositoryPath))
         {
             await file.WriteAsync(JsonSerializer.Serialize(studentsList));
         }
         }
-            static List<Student> Load() {
+            static List<Student> Read() {
             return JsonSerializer.Deserialize<List<Student>>(File.ReadAllText(_studentRepositoryPath));
         }
-        static List<Student> studentsList =  new List<Student>();
+        //static List<Student> studentsList =  new List<Student>();
         static void Main(string[] args)
         {
             var inputtingStudent = true;
