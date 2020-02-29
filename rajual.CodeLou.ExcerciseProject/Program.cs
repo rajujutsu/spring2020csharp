@@ -12,7 +12,7 @@ namespace rajual.CodeLou.ExcerciseProject
     {
         const string jsonfile = @"students.json"; 
         static string theDirectory = AppDomain.CurrentDomain.BaseDirectory;
-        static string _studentRepositoryPath = $"{theDirectory}\\jsonfile";
+        static string _studentRepositoryPath = $"{jsonfile}";
         static List<Student> studentsList = File.Exists(_studentRepositoryPath) ? Read() : new List<Student>(); 
         public static async Task Save()  {
             using (var file = File.CreateText(_studentRepositoryPath))
